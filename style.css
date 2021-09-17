@@ -12,4 +12,12 @@ body {
     align-items: center;
     justify-content: center;
     margin: 0;
+    height: 100vh;
+}
+
+.toggle-container {
+ display: flex;   
+ align-items: center;
+ margin: 10px 0;
+ width: 200px;
 }
