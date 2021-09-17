@@ -1,0 +1,14 @@
+var toggles = document.querySelectorAll('.toggle');
+var good = document.getElementById('good');
+var cheap = document.getElementById('cheap');
+var fast = document.getElementById('fast');
+
+toggles.forEach(toggle => addEventListener ('change', (e) => doTheTrick(e.target)));
+
+function doTheTrick (theClickedOne) {
+    if (good.checked && cheap.checked && fast.checked) {
+        if (good === theClickedOne) {
+            
+        }
+    }
+}
