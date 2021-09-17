@@ -33,4 +33,17 @@ body {
     display: inline-block;
     border-radius: 50px;
     margin: 0 15px 0;
+    position: relative;
+}
+
+.toggle:checked + .label {
+    background-color: #8e448e;
+}
+.ball {
+    background-color: #fff;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    position: absolute;
+
 }
